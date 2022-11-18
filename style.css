@@ -1,0 +1,292 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBarUpBGI{
+    width: 100%;
+    height: 632px;
+    /* background-image: url(./image/BGI.jpg) ; */
+    /* liner gedient use hobe */
+    background:url('https://i.ibb.co/JB1y0X5/4690.jpg') ,
+  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+  background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 1559px 911px;
+    /* opacity : 0.2; */
+
+}
+.navBarUPBGI_text{
+    text-align: center;
+    color: tomato;
+    font-size: 2em;
+    padding-top: 120px;
+   
+}
+button{
+    padding: 10px 30px;
+    color: white;
+    background-color: tomato;
+    border:2px solid white;
+    border-radius: 40px;
+    font-size: .8em;
+    text-transform: uppercase;
+    border: none;
+}
+button:hover{
+    color: tomato;
+    background-color: white;
+    border:2px solid tomato;
+}
+
+.BGI_text{
+    color: aliceblue;
+}
+
+/* navbar design start */
+
+/* navBar class sticky bosate hobe  */
+.navBar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    opacity: 0.9;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+   
+}
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  li a:hover {
+    background-color: tomato;
+    color: white;
+
+  }
+  
+  /* navbar design end */
+
+
+  /* navBar Down part design start */
+.contianer-02{
+    width: 100%;
+    height: 800px;
+    background-image: url(./image/image-02.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-repeat: no-repeat;
+    background-size: 1533px 911px;
+}
+.contianer-02 h2{
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+}
+.line{
+    width: 260px;
+    height: 5px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: tomato;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.row{
+   /* border: 2px solid blue; */
+   display: flex;
+   justify-content: center;
+   margin: 30px;
+
+}
+.row img{
+    width: 331px;
+    height: 200px;
+    margin-left: 170px;
+}
+.colums{
+    /* border: 2px solid black; */
+    display: flex;
+}
+.colum_text{
+    padding: 25px;
+}
+.colums h1{
+    color:  rgb(49, 73, 105);;
+}
+.colums p{
+    color: tomato;
+}
+
+/* second part design is end here */
+
+
+/* favouurite apps part start here */
+
+.contianer-03{
+    width: 100%;
+    background: rgba(76, 175, 175, 0.3);
+}
+.text_part{
+    text-align: center;
+    padding-top: 100px;
+}
+.text_part h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+.text_part p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.flex-contianer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.flex-items{
+    text-align: center;
+    box-shadow: 1px 5px 20px black;
+}
+.flex-items:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.flex-items h3{
+    padding: 5px;
+    margin: 0;
+}
+
+.flex-items img{
+    width: 200px;
+    height: 180px;
+}
+
+/* favouurite apps part end here */
+
+/* world wide design part start */
+.contianer-04{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    background: rgba(76, 175, 79, 0.199)
+}
+.image-04{
+    width: 250px;
+    height: 400px;
+}
+.image-04 img{
+    width: 250px;
+    height: 400px;
+}
+.text-right{
+    text-align: right;
+}
+.text-04{
+    padding: 20px;
+    height: 400px;
+    width: 500px;
+}
+.text-04 p{
+    margin: 0;
+}
+
+/* world wide desgined part end */
+
+/* plans design part start */
+
+.contianer-05{
+    width: 100%;
+    
+    height: 850px ;
+    background-color: rgba(208, 232, 240, 0.644);
+    align-items: center;
+    
+}
+.text-05{
+    padding-top: 127px;
+    margin-bottom: 62px;
+    text-align: center;
+    color: rgb(79, 79, 100);
+}
+
+.plans_flex{
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.plans{
+    width: 20%;
+    height: 450px;
+    text-align: center;
+    margin: 0 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+    background-color: rgba(208, 232, 240, 0.774);
+
+}
+.plans:hover{
+    box-shadow: 5px 5px 20px black;
+    background-color: rgba(85, 105, 172, 0.596); 
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.tilte{
+    margin: 0;
+    padding: 20px 0px;
+    text-transform: capitalize;
+    background-color: rgb(180, 224, 240) ;
+    color: rgb(49, 73, 105);
+}
+
+.monthDiscount{
+    margin: 0;
+}
+.plans p{
+    padding: 10px 40px;
+    text-align: justify;
+}
+.plansButton{
+    background-color: tomato;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 40px;
+}
+
+.oneMonth , .monthDiscount{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+/* plans design part end */
+
+/* footer design */
+
+footer{
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: black;
+}
